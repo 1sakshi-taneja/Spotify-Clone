@@ -1,0 +1,22 @@
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif;
+
+====================================
+1 create an new audio
+2 play it 
+3 create an array of objects -songs
+4 Event Listen (humara jo aduio hai , usmein jab time change hota hai toh vo kaunsa event hota hai ? --time update event), toh mein time update event ko listen karunga 
+5 initialize variables ,..... songIndex(kaunsa song play ho rha hai )
+6 event jo listen karunga vo myProgressBar pe karunga ,, jab jab iska time change hoga toh mein listen toh kar rha hu event k lie , will update seekbar 
+but usse pehle gaana toh play ho jaaye , usmein 2 cheezein hongi , ya toh audio play ho rhi hai ya audio pause ho rhi hai
+7 play kiya song , agr play kiya toh icon remove karke dusra icon chnage kar do
+8 jo progress hui hai vo mein nikal rha hu % mein , ki kitna chal chuki hai jo audio hai vo
+currentTime - jha pe play ho rha hai gaana  /  duration ,,,,,* 100 isse ye aaega ki kitna % ye chal chuka hai
+9 agr change ho rha hai progress bar toh mujhe audio ko b change karna hai 
+
+10 i can do 2 thimgs - ya toh songs vali aaray ko Js se iterate karunga , index.html mein songItem vale div mein , src update cover images ka
+11 makeallplays  ek function banaega  .... jab naye event mein create ho rha hai play karne ko toh purane vala jo :pause
+button hai vo play mein change kar denge taaki new song chala sake
+12 now i want ki gaana play ho jaaye jispe meine click kiya hai , uske liye audio element change karna padega
+
+13 by efault hum phla gana dalenge
